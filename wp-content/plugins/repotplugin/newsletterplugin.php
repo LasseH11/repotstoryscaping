@@ -45,7 +45,10 @@ function register_styles_and_scripts_for_plugin()
     {
         wp_enqueue_style('fontAwesomCDN', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css');
         
-        wp_enqueue_style('CustomFontMontserrat','https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap');
+        wp_enqueue_style('CustomFontRoboto','https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+    
+        wp_enqueue_style('CustomFontRoboto','https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    
         
         wp_enqueue_style('CustomStylesheet', plugins_url('repotplugin/css/style.css'));
         

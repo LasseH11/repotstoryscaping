@@ -18,7 +18,7 @@ function newsletter_form(){
     $content .= '<div class="popupCloseButton">X</div>';
     $content .= '<section>';
     $content .= '<h3 id="velkommen">Følg vores rejse</h3>';
-    $content .= '<img id="logo" src=" '.plugins_url("repotplugin/img/repot-logo.png").' " >';
+    $content .= '<img id="logo" src=" '.plugins_url("repotplugin/img/replant-logo.png").' " >';
     $content .= '<h5 id="tilmeld">Du kan både få nyhedsbrev eller følge os på de sociale medier</h5>';
   	$content .= '</section>';
      $content .= '<section class="form">';
